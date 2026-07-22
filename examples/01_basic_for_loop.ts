@@ -5,7 +5,7 @@
  * Watch how `i` goes from 0 to 4.
  */
 
-console.log("=== Counting 0 to 4 ===");
+console.log("\n=== Counting 0 to 4 ===");
 for (let counter = 0; counter < 5; counter++) {
   console.log(`  counter = ${counter}`);
 }
