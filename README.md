@@ -20,13 +20,13 @@ npm install
 
 | Folder | Purpose |
 |--------|---------|
-| `examples/` | Clean, working examples — teach concepts in order (01 → 07) |
+| `examples/` | Clean, working examples |
 | `debug/` | Intentionally buggy code — practice finding and fixing loop mistakes |
 | `exercises/` | Starter code for students to complete |
 
 ## Example progression
 
-1. **`01_basic_for_loop.ts`** — classic `for` loop with a counter (`i++`)
+1. **`01_basic_for_loop.ts`** — classic `for` loop with a counter (`counter++`)
 2. **`02_iterate_array.ts`** — looping through an array
 4. **`03_nested_loops.ts`** — loops inside loops
 6. **`04_basic_while.ts`** — `while` loops (condition checked before each iteration)
@@ -37,8 +37,6 @@ npm install
 | Style | When to use |
 |-------|-------------|
 | `for (let i = 0; i < n; i++)` | When you need a counter or index |
-| `for (const item of array)` | When you only need each value |
-| `for (const [i, item] of array.entries())` | When you need index and value |
 | `while (condition) { ... }` | When you don't know how many iterations ahead of time |
 | `do { ... } while (condition)` | When the body must run at least once |
 
