@@ -1,6 +1,6 @@
-# Loops — Teaching & Debug Demo (TypeScript)
+# Loops — Teaching & Debug Demo (JavaScript)
 
-A hands-on project for teaching loops in TypeScript (`for`, `while`, and `do...while`). Each file is a small, runnable example you can step through with the debugger.
+A hands-on project for teaching loops in JavaScript (`for`, `while`, and `do...while`). Each file is a small, runnable example you can step through with the debugger.
 
 ## Setup
 
@@ -26,13 +26,13 @@ npm install
 
 ## Example progression
 
-1. **`01_basic_for_loop.ts`** — classic `for` loop with a counter (`counter++`)
-2. **`02_iterate_array.ts`** — looping through an array
-4. **`03_nested_loops.ts`** — loops inside loops
-6. **`04_basic_while.ts`** — `while` loops (condition checked before each iteration)
-7. **`05_do_while.ts`** — `do...while` loops (body runs at least once)
+1. **`01_basic_for_loop.js`** — classic `for` loop with a counter (`counter++`)
+2. **`02_iterate_array.js`** — looping through an array
+4. **`03_nested_loops.js`** — loops inside loops
+6. **`04_basic_while.js`** — `while` loops (condition checked before each iteration)
+7. **`05_do_while.js`** — `do...while` loops (body runs at least once)
 
-## TypeScript loop styles covered
+## JavaScript loop styles covered
 
 | Style | When to use |
 |-------|-------------|
@@ -50,6 +50,6 @@ npm install
 ## Run without debugging
 
 ```bash
-npx tsx examples/01_basic_for_loop.ts
-npx tsx debug/01_off_by_one.ts
+node examples/01_basic_for_loop.js
+node debug/01_off_by_one.js
 ```

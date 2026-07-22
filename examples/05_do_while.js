@@ -31,11 +31,11 @@ do {
 } while (score < 50);
 
 console.log("\n=== Roll until we get a 6 (simulated dice) ===");
-function rollDice(): number {
+function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
 
-let roll: number;
+let roll;
 do {
   roll = rollDice();
   console.log(`  Rolled: ${roll}`);

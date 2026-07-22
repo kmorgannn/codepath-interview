@@ -6,7 +6,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "checkJs": true
   },
   "include": ["examples/**/*", "debug/**/*", "exercises/**/*"]
 }
