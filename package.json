@@ -1,0 +1,15 @@
+{
+  "name": "for-loops-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teaching demo for for loops in TypeScript",
+  "scripts": {
+    "start": "tsx examples/01_basic_for_loop.ts",
+    "example": "tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
