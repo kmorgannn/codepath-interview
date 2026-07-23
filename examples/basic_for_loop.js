@@ -16,6 +16,11 @@ for (let counter = 1; counter <= 5; counter++) {
   console.log(`  counter = ${counter}`);
 }
 
+console.log("\n=== Counting down from 5 to 1 ===");
+for (let counter = 5; counter >= 1; counter--) {
+  console.log(`  counter = ${counter}`);
+}
+
 console.log("\n=== Counting by 2s: 0, 2, 4, 6, 8 ===");
 for (let i = 0; i < 10; i += 2) {
   console.log(`  i = ${i}`);
