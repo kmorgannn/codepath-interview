@@ -41,7 +41,7 @@ npm install
 | `while (condition) { ... }` | When you don't know how many iterations ahead of time |
 | `do { ... } while (condition)` | When the body must run at least once |
 
-## Debugging tips for teaching
+## Debugging tips
 
 - **Watch variables**: Add `i`, `step`, `counter`, or `total` to the Watch panel while paused
 - **Loop variable**: Pause on the loop line and step once — show how `step` or `counter` changes each iteration
