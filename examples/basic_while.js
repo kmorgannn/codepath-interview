@@ -1,5 +1,5 @@
 /**
- * Lesson 6: while loop — check condition, then run body
+ * while loop — check condition, then run body
  *
  * The condition is checked BEFORE each iteration.
  * If it's false on the first check, the body never runs.

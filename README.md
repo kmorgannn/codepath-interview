@@ -26,11 +26,12 @@ npm install
 
 ## Example progression
 
-1. **`01_basic_for_loop.js`** — classic `for` loop with a counter (`counter++`)
-2. **`02_iterate_array.js`** — looping through an array
-4. **`03_nested_loops.js`** — loops inside loops
-6. **`04_basic_while.js`** — `while` loops (condition checked before each iteration)
-7. **`05_do_while.js`** — `do...while` loops (body runs at least once)
+1. **`basic_for_loop.js`** — classic `for` loop with a counter (`counter++`)
+2. **`loops_and_conditionals.html`** — combining a `for` loop and an `if` statement to conditionally render UI elements 
+3. **`iterate_array.js`** — looping through an array
+4. **`nested_loops.js`** — loops inside loops
+5. **`basic_while.js`** — `while` loops (condition checked before each iteration)
+6. **`do_while.js`** — `do...while` loops (body runs at least once)
 
 ## JavaScript loop styles covered
 
@@ -50,6 +51,6 @@ npm install
 ## Run without debugging
 
 ```bash
-node examples/01_basic_for_loop.js
-node debug/01_off_by_one.js
+node examples/basic_for_loop.js
+node debug/off_by_one.js
 ```

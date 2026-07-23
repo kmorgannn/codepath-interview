@@ -1,5 +1,5 @@
 /**
- * Lesson 4: Nested loops (loop inside a loop)
+ * Nested loops (loop inside a loop)
  *
  * The inner loop runs completely for EACH iteration of the outer loop.
  * Breakpoint on the inner console.log — count how many times it hits.

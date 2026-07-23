@@ -1,5 +1,5 @@
 /**
- * Lesson 7: do...while loop — run body first, then check condition
+ * do...while loop — run body first, then check condition
  *
  * The body always runs AT LEAST ONCE, even if the condition is false.
  * Compare this to `while`, which may skip the body entirely.

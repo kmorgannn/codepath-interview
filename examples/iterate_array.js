@@ -1,5 +1,5 @@
 /**
- * Lesson 2: Looping over an array with for loops
+ * Looping over an array with for loops
  *
  * The loop variable takes each element's value, one at a time.
  * Breakpoint tip: watch `fruit` change on each iteration.

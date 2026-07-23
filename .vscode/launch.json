@@ -17,10 +17,10 @@
       "skipFiles": ["<node_internals>/**"]
     },
     {
-      "name": "01 Basic For Loop",
+      "name": "Basic For Loop",
       "type": "node",
       "request": "launch",
-      "runtimeArgs": ["${workspaceFolder}/examples/01_basic_for_loop.js"],
+      "runtimeArgs": ["${workspaceFolder}/examples/basic_for_loop.js"],
       "console": "integratedTerminal",
       "skipFiles": ["<node_internals>/**"]
     }

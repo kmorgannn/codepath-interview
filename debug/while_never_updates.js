@@ -1,5 +1,5 @@
 /**
- * DEBUG CHALLENGE 5: while loop never ends
+ * DEBUG CHALLENGE 2: while loop never ends
  *
  * Goal: Print numbers 1 through 5.
  * Bug: The counter inside the while loop is never updated.
