@@ -43,10 +43,10 @@ npm install
 
 ## Debugging tips for teaching
 
-- **Watch variables**: Add `i`, `item`, or `total` to the Watch panel while paused
-- **Loop variable**: Pause on the loop line and step once — show how `i` or `item` changes each iteration
+- **Watch variables**: Add `i`, `step`, `counter`, or `total` to the Watch panel while paused
+- **Loop variable**: Pause on the loop line and step once — show how `step` or `counter` changes each iteration
 - **Off-by-one**: Compare `i < 5` vs `i <= 5` in the debugger
-- **Common bugs** in `debug/`: wrong loop bounds, modifying an array while iterating, shadowing the loop variable
+- **Common bugs** in `debug/`: wrong loop bounds, missing loop variable updates
 
 ## Run without debugging
 
