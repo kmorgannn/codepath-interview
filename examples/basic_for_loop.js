@@ -2,7 +2,7 @@
  * Classic for loop with a counter
  *
  * Set a breakpoint on a console.log line and press F5 to step through.
- * Watch how `i` goes from 0 to 4.
+ * Watch how the counter variable is incremented.
  */
 
 console.log("\n=== For loop step example ===");
